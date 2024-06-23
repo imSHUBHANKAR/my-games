@@ -1,8 +1,8 @@
 import React from "react";
 import TicTacToe from "../components/TicTacToe/TicTacToe";
-import circle from '../components/Assets/circle.png'
-import cross from '../components/Assets/cross.png'
-import AllGame from "../components/TicTacToe/AllGame";
+//import circle from '../components/Assets/circle.png'
+//import cross from '../components/Assets/cross.png'
+//import AllGame from "../components/TicTacToe/AllGame";
 
 const Dashboard = () =>{
     return (

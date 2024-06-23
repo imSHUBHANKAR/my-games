@@ -1,14 +1,14 @@
 import React from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import { NavLink } from 'react-router-dom';
-import {FcHome,FcManager,FcComments,FcComboChart,FcOpenedFolder,FcSettings,FcEngineering,FcInTransit,FcLike,FcAdvertising,FcPrevious} from 'react-icons/fc';
+import {FcHome,FcManager,FcEngineering,FcLike,FcAdvertising} from 'react-icons/fc';
 
-import { FaBars, FaHome, FaLock, FaMoneyBill, FaUser } from "react-icons/fa";
-import { MdMessage } from "react-icons/md";
-import { BiAnalyse, BiSearch } from "react-icons/bi";
-import { BiCog } from "react-icons/bi";
-import { AiFillHeart, AiTwotoneFileExclamation } from "react-icons/ai";
-import { BsCartCheck } from "react-icons/bs";
+import { FaBars, FaLock, FaMoneyBill, FaUser } from "react-icons/fa";
+//import { MdMessage } from "react-icons/md";
+import {BiSearch } from "react-icons/bi";
+// import { BiCog } from "react-icons/bi";
+// import { AiFillHeart, AiTwotoneFileExclamation } from "react-icons/ai";
+// import { BsCartCheck } from "react-icons/bs";
 import { useState } from "react";
 // import SidebarMenu from "./SidebarMenu";
 
@@ -95,11 +95,11 @@ const routes=[
 const Sidebar = ({children}) => {
 
     const [isOpen,setIsOpen] = useState(false);
-    const [isOpen1,setIsOpen1] = useState(false);
+    //const [isOpen1,setIsOpen1] = useState(false);
 
 
     const toggle= () => setIsOpen(!isOpen);
-    const toggle1= () => setIsOpen1(!isOpen1);
+    //const toggle1= () => setIsOpen1(!isOpen1);
 
     const inputAnimation={
         hidden:{

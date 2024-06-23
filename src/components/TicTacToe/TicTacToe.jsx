@@ -83,14 +83,25 @@ const TicTacToe = () => {
   }
 
 
+  // const reset = () => {
+  //   setLock(false);
+  //   data=["","","","","","","","",""];
+  //   titleRef.current.innerHTML='Winner:-';
+  //   box_array.map((e)=>{
+  //     e.current.innerHTML="";
+  //   });
+  // }
+
+
   const reset = () => {
     setLock(false);
-    data=["","","","","","","","",""];
-    titleRef.current.innerHTML='Winner:-';
-    box_array.map((e)=>{
-      e.current.innerHTML="";
+    data = ["", "", "", "", "", "", "", "", ""];
+    titleRef.current.innerHTML = "Winner:";
+    box_array.forEach((e) => {
+      e.current.innerHTML = "";
     });
-  }
+    setCount(0);
+  };
 
 
 
